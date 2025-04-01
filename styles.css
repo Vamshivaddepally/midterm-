@@ -1,0 +1,62 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2e2e2e;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background-color: #111;
+    color: #ffcc00;
+    padding: 10px;
+}
+
+#story-area {
+    padding: 20px;
+    background-color: #444;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+#choices button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #ffcc00;
+    color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#choices button:hover {
+    background-color: #ff9900;
+}
+
+#image-container {
+    margin-top: 20px;
+}
+
+#story-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #111;
+    color: #ffcc00;
+    padding: 10px;
+}
